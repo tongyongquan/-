@@ -1,0 +1,36 @@
+.logo{
+    width: 40px;
+    height:40px;
+    /*显示边框*/
+    display: inline-block;
+    /*圆*/
+    border-radius:50%;
+    overflow:hidden;
+    margin-right:20px;
+    /*距上*/
+    margin-top: 5px;
+}
+
+.logo_img{
+    width:100%;
+    height:100%;
+}
+
+body{
+    background: beige;
+}
+
+.main{
+    /*背景颜色*/
+    background: #ffffff;
+    /*宽度*/
+    width: 780px;
+    /*居中*/
+    margin: 0 auto;
+    /*清除浮动*/
+    overflow: hidden;
+    /*上下边距*/
+    padding: 20px;
+
+}
+

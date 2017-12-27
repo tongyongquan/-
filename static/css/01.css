@@ -1,0 +1,44 @@
+.header{
+           background-color: #00645d;
+        margin-top: 10px;
+       }
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+
+.carousel{
+    height: 300px;
+}
+
+.carousel .item{
+    height: 300px;
+}
+
+.carousel img{
+    width:100%;height: 100% !important;
+}
+
+@media screen and (max-width:1000px){
+
+    .carousel{
+    height: 400px;
+}
+
+.carousel .item{
+    height: 400px;
+}
+
+}
+@media screen and (max-width:600px){
+
+    .carousel{
+    height: 300px;
+}
+
+.carousel .item{
+    height: 300px;
+}
+
+}
